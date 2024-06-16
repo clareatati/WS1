@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1d3557; /* Dark blue text */
+    background-color: #f1faee; /* Off-white background */
+}
+
+/* Header */
+header {
+    background-color: #a8dadc; /* Light blue */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute space between logo and nav */
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    width: 120px; /* Smaller logo */
+    margin-right: 30px; /* More space between logo and nav */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align links to the right */
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px; /* Add space between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #457b9d; /* Darker blue for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1d3557; /* Darker blue on hover */
+}
+
+
+/* Main Content */
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #e63946; /* Reddish for headlines */
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero-content {
+    text-align: center;
+}
+.hero-content h1{
+    color:#1d3557;
+}
+
+/* Buttons */
+button {
+    background-color: #457b9d; /* Darker blue for buttons */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d3557; /* Even darker blue on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #a8dadc; /* Light blue */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Introduction Section */
+#introduction {
+    text-align: justify;
+}
+
+/* Study Area Section */
+#study-area img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 20px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* About Me Section */
